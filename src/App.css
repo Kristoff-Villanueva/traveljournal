@@ -1,0 +1,79 @@
+/* * {
+	border: 1px dashed red;
+} */
+
+body {
+	margin: 0px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar {
+	background-color: #f55a5a;
+	display: flex;
+	height: 55px;
+	justify-content: center;
+	align-items: center;
+}
+
+#navbar > img {
+	width: 24px;
+	margin-right: 10px;
+}
+
+#navbar > h3 {
+	color: white;
+}
+
+.card {
+	display: flex;
+	margin: 40px 50px 0px;
+	height: 100%;
+	align-items: center;
+}
+
+.cardPhoto {
+	width: 125px;
+	height: 168px;
+	border-radius: 10px;
+	object-fit: cover;
+	/* align-self: center; */
+}
+
+.cardDetails {
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+}
+
+.location {
+	display: flex;
+	height: auto;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.location > img {
+	width: 7px;
+	height: 9.55px;
+	margin-right: 5px;
+}
+
+.googleMaps {
+	color: gray;
+	margin-left: 30px;
+}
+
+h2 {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+p {
+	padding: 2px;
+	margin: 0px;
+}
+
+.travelPeriod {
+	font-weight: bold;
+	font-size: 0.7em;
+}
